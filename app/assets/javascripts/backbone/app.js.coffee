@@ -22,6 +22,7 @@
       @navigate(@rootRoute, triger: true) if @getCurrentRoute() is ''
 
   App.navigate = (route, options = {}) ->
+    route = "##{route}" if @getCurrentRoute().charAt(0) is '#'
     Backbone.history.navigate route, options
 
   App.getCurrentRoute  = ->

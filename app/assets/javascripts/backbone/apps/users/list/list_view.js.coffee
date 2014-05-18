@@ -10,9 +10,6 @@
   class List.Panel extends App.Views.ItemView
     template: JST['users/list/_panel']
 
-    # collectionEvents:
-    #   'reset': 'render'
-
   class List.User extends App.Views.ItemView
     template: JST['users/list/_user']
     tagName: 'tr'
