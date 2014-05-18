@@ -15,4 +15,9 @@
 //= require lib/underscore
 //= require lib/backbone
 //= require lib/backbone.marionette
-//= require_tree .
+//= require js-routes
+//= require_tree ../templates
+//= require backbone/app
+//= require_tree ./backbone/entities
+//= require_tree ./backbone/views
+//= require_tree ./backbone/apps

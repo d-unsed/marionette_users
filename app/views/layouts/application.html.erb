@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>Backbonerails</title>
+  <%= include_gon %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>
